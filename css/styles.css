@@ -1,6 +1,7 @@
 body{
     font-family: Montserrat;
     background-color: antiquewhite;
+    
 }
 
 
@@ -15,6 +16,10 @@ body{
     padding:10%;
     background-color: white;
     font-weight: bold;
+}
+
+.animation-intro{
+    display:none;
 }
 .img-right{
     padding: 0;
