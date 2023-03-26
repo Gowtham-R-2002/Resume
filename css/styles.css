@@ -1,0 +1,225 @@
+body{
+    font-family: Montserrat;
+    background-color: antiquewhite;
+}
+
+
+/* Home  */
+.nav-div{
+    padding-bottom: 2%;
+}
+#home,#about,#projects,#skills,#contact{
+    padding: 0 7% 2% 7%;
+}
+.home-left-div{
+    padding:10%;
+    background-color: white;
+    font-weight: bold;
+}
+.img-right{
+    padding: 0;
+    overflow: hidden;
+    
+}
+.img-right-ani{
+
+    transition: all .3s ease-in-out ;
+}
+.img-right-ani:hover{
+    transform: scale(1.5);
+}
+.home-div{
+    padding-top: 5%;
+}
+
+/* Home end  */
+
+/* About  */
+#about .container-fluid{
+    background-color: white;
+    padding: 5%;
+}
+#about h1{
+    text-align: center;
+    font-weight: bolder;
+    opacity: .8;
+}
+.my-img-container{
+    overflow: hidden;
+}
+.my-pic{
+    border-radius: 50%;
+    padding: 5%;
+    transition: all .3s linear ;
+    }
+.my-pic:hover{
+    transform: scale(1.6);
+}
+#about h1{
+    color: purple;
+    text-align: right;
+    transition: all .3s linear;
+}
+#about h1:hover{
+    background-color: purple;
+    color: white;
+    font-size: 2.6rem;
+}
+#about hr{
+    margin-left:25%;
+    width:75%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    opacity: .5;
+}
+
+.about-content{
+    text-align: center;
+    font-family: Raleway;
+}
+.about-icons{
+    opacity: 1;
+    transition:all .3s ease-in-out;
+    color:purple;
+}
+.about-icons:hover{
+    color:blueviolet;
+}
+#about h4{
+    opacity: .6;
+    font-size: 1.2rem;
+    transition:all .3s ease-in-out;
+    margin:0
+}
+#about h4:hover{
+    opacity: 1;
+    font-size: 1.3rem;
+    color: white;
+    background-color: purple;
+    padding: 2%;
+}
+#about .row{
+    padding-top: 2%;
+}
+
+/* About End  */
+
+
+/* Projects  */
+
+#projects .container-fluid{
+    background-color: white;
+    padding: 5%;
+}
+.pro-img{
+    overflow: hidden;
+}
+#projects img{
+    transform: scale(1.6);
+    transition: all .3s ease-in-out;
+}
+#projects img:hover{
+    transform: scale(2.0);
+}
+.fresh{
+    color: purple;
+    text-align: left;
+    transition: all .3s linear;
+    font-weight: bolder;
+}
+.fresh:hover{
+    background-color: purple;
+    color: white;
+    font-size: 2.6rem; 
+}
+#projects hr{
+    margin-right:25%;
+    width:75%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    opacity: .5;
+}
+.projects-left{
+    padding: 3%;
+}
+#projects h3{
+    font-weight: bold;
+    font-family: Raleway;
+}
+#projects button{
+    width:25%;
+}
+
+/* Projects End  */
+
+
+/* Skills  */
+
+#skills .container-fluid{
+    background-color: white;
+    padding: 5%;
+}
+#skills h1{
+    text-align: right;
+}
+#skills hr{
+    margin-left:25%;
+    width:75%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    opacity: .5;
+}
+.space{
+    padding-top: 2%;
+}
+#skills li{
+    transition: all .2s linear;
+}
+#skills li:hover{
+    background-color: purple;
+    color: white;
+    font-size: 110%;
+
+}
+.progress{
+    transition: .2s linear;
+}
+.progress:hover{
+    transform: scale(1.1);
+}
+/* Skills End  */
+
+
+
+/* Contact  */
+
+#contact .container-fluid{
+    background-color: white;
+    padding: 5%;
+
+}
+#contact h1,p{
+
+    text-align: center;
+}
+
+#contact h5{
+    text-align: center;
+}
+.last-one{
+    width:50%;
+    border-top: 3px dashed purple;
+    margin: auto;
+    /* padding-top: 2% ; */
+}
+.mail{
+    transition:all .2s linear;
+}
+.mail:hover{
+    background-color: purple;
+    color: white;
+    font-size: 150%;
+}
+
+
+/* Contact end  */
