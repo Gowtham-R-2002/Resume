@@ -51,6 +51,7 @@ body{
 }
 .my-img-container{
     overflow: hidden;
+    border-radius: 100%;
 }
 .my-pic{
     border-radius: 50%;
@@ -300,6 +301,7 @@ body{
         margin: auto;
         width: 75%;
         text-align: center;
+        border-radius: 100%;
     }
     #about h4{
         font-size:.9rem;
