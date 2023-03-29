@@ -257,7 +257,7 @@ body{
 
 /* Media Queries*/
 
-@media (max-width:320px) {
+@media (max-width:768px) {
     .mail{
         font-size: 1rem;
         transition:all .3s linear;
