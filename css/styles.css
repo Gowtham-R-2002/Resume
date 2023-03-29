@@ -232,7 +232,7 @@ body{
 .mail:hover{
     background-color: purple;
     color: white;
-    font-size: 150%;
+    
 }
 
 
@@ -253,4 +253,70 @@ body{
     100%{
         margin-left: 0%;
     }
+}
+
+/* Media Queries*/
+
+@media (max-width:320px) {
+    .mail{
+        font-size: 1rem;
+        transition:all .3s linear;
+    }
+    .mail:hover{
+        font-size: .9rem;
+    }
+    .fresh{
+        font-size: 1rem;
+    }
+    .fresh:hover{
+        font-size: 1.5rem;
+    }
+    #about h5{
+        font-size: 1rem;
+    }
+
+    #projects{
+        text-align: center;
+    }
+    #projects button{
+       margin: auto;
+        width:70%;
+    }
+    #projects image{
+        padding-bottom: 10%;
+    }
+    #projects li{
+        font-size: .8rem;
+        text-align: center;
+    }
+    #projects p{
+        font-size: .9rem;
+    }
+    #about{
+        text-align: center;
+
+    }
+    .my-img-container{
+        margin: auto;
+        width: 75%;
+        text-align: center;
+    }
+    #about h4{
+        font-size:.9rem;
+        transition: all .3s linear;
+    }
+    #about h4:hover{
+        font-size: 1rem;
+    }
+    #home{
+        margin-top: 10%;
+    }
+    #about h1{
+        transition: all .3s linear;
+    }
+    #about h1:hover{
+        font-size: 1.5rem;
+    }
+    
+
 }
