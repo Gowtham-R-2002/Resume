@@ -1,8 +1,5 @@
 $(document).ready(function(){
 
-
-
-
     $('.animation-intro').css('display','');
     $('.animation-intro').slideDown(3000);
 

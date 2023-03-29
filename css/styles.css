@@ -237,3 +237,20 @@ body{
 
 
 /* Contact end  */
+
+
+/* Animation section  */
+
+
+#about,#skills,#projects,#contact{
+    animation: 2s hello;
+}
+
+@keyframes hello {
+    0%{
+       margin-right: 20%;
+    }
+    100%{
+        margin-left: 0%;
+    }
+}
