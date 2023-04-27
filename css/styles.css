@@ -34,7 +34,7 @@ body{
     transform: scale(1.5);
 }
 .home-div{
-    padding-top: 5%;
+    margin-top: 5%;
 }
 
 /* Home end  */
@@ -180,10 +180,11 @@ body{
 }
 #skills li{
     transition: all .2s linear;
+    margin: auto;
 }
 #skills li:hover{
-    background-color: purple;
-    color: white;
+    /* background-color: purple; */
+    /* color: white; */
     font-size: 110%;
 
 }
@@ -233,6 +234,7 @@ body{
 .mail:hover{
     background-color: purple;
     color: white;
+    scale: 1.1;
     
 }
 
@@ -321,4 +323,53 @@ body{
     }
     
 
+}
+
+
+
+/* extra effects dated 27-4-23 */
+
+.home-div,#about .container-fluid,#projects .container-fluid,
+#skills .container-fluid,#contact .container-fluid{
+    box-shadow: .1px .1px 50px .5px black;
+}
+.navbar{
+    box-shadow: 1px 0px 10px 1px black;
+}
+
+.animation-intro,.projects-left,#contact h5{
+    transition: all .5s ;
+}
+.animation-intro:hover,.projects-left:hover,#contact h5:hover{
+    scale: 1.15;
+}
+.fa-face-smile{
+    transition: all .1s ease-in-out;
+}
+.fa-face-smile:hover{
+    color: yellow;
+    background-color: black;
+    border-radius: 100%;
+}
+.navbar-brand{
+    transition: all 1s;
+    animation: hellos 1s;
+
+}
+@keyframes hellos{
+    0%{rotate : 0deg}
+    10%{rotate : 10deg}
+    30%{rotate : -10deg}
+    45%{rotate : 5deg}
+    55%{rotate : -5deg}
+    60%{rotate : 0deg}
+}
+.navbar-brand:hover{
+    rotate : 360deg;
+}
+#skills li{
+    transition:all .1s ;
+}
+#skills li:hover{
+    translate: 6rem;
 }
